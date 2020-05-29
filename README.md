@@ -1,3 +1,5 @@
+# works on Unix systems.
+
 # tests-interface
 interface for tests
 
