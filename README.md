@@ -1,5 +1,6 @@
 # works on Unix systems.
-
+# you can set linux firewall to exclude wifi Bluetooth and any other
+# or you can remove drivers for those things completly
 # tests-interface
 interface for tests
 
