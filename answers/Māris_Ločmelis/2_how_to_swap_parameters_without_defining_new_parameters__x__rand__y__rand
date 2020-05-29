@@ -1,0 +1,9 @@
+function swapParams($a, $b) {
+    return [$b, $a];
+}
+
+list($a, $b) = swapParams($b, $a);
+
+also can be.
+
+list($a, $b) = [$b, $a]; 

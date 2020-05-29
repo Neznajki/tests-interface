@@ -1,0 +1,17 @@
+version: "3.3"
+
+services:
+    tests-interface:
+        hostname: tests-interface.local.net
+        container_name: tests-interface
+        image: php:7.2-apache
+        volumes:
+            - ./www:/var/www/html:cached
+            - ./answers:/tmp/answers:cached
+            - ./questions:/tmp/questions:cached
+        ports:
+            - 80:80
+        environment:
+            - VIRTUAL_HOST=tests-interface.local.net
+            - HTTPS_METHOD=noredirect
+            - APACHE_DOCUMENT_ROOT=/www/default/public/
