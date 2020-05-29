@@ -1,6 +1,7 @@
 # works on Unix systems.
 # you can set linux firewall to exclude wifi Bluetooth and any other possible network addapter for notebook.
 # or you can remove drivers for those things completly
+# or you can simply put computer without those devices. and remove wire from lan while interviewing.
 # tests-interface
 interface for tests
 
